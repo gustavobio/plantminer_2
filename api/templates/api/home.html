@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plantminer</title>
+</head>
+<body>
+    <h1>Plantminer Home</h1>
+    {% for spp in taxon %}
+        <h2>{{spp.genus}} {{spp.species}}</h2>
+    {% endfor %}
+</body>
+</html>
